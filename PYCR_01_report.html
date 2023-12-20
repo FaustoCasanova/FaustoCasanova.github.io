@@ -91,138 +91,146 @@
 
 
 
-    <!-- ======= Detalles contenido Inicio  ======= -->	
-    <section class="inner-page" style="text-align: justify;font-size: 16px;font-family: 'Times New Roman'">
+<!-- ======= INICIO - CONTENIDO DEL PROYECTO ======= -->	
+
+
+    <!-- ======= Seccion A Detalles del Proyecto ======= -->	
 	
-	  <!-- Subencabezado Inicio --> 
-	  
-	  <h5 style="color: black; text-align: center;font-size: 20px;font-family: 'Times New Roman'">
-		Resultados del Proyecto de Gestion de Cartera
-	  </h5>
+    <section id="seccion_A" class="new_section section-bg">  
+	
 	  
 	  
-	  <!-- Resumen Inicio--> 
-	  <div class="container">
-		<h6 style="color: black;font-size: 17px;font-family: 'Times New Roman'">
-			Resumen:
-		</h6>
-		<p>
-		El presente reporte tiene como finalidad presentar los resultados de los analisis exploratorios realizados en SQL y Power BI en base 
-		a las preguntas propuestas previamente. 
-		El analisis busca obtener informacion relevante de la cartera de creditos de la empresa "x" durante el periodo del primer semestre del año 2021
-		enfocandose en 3 puntos importantes: <br>
-		<ol> <!-- Inicia una lista ordenada -->
-			<li>Analisis General de la cartera de creditos</li>
-			<li>Analisis de la Cobranza de la cartera de creditos</li>
-			<li>Analisis de la Cartera pendiente de cobro</li>
-		</ol> <!-- Cierra la lista ordenada --> 			
-		
+		<h5 style="color: black; text-align: center;line-height: 18px;font-weight: 600">
+			Análisis de Cartera de Crédito y Cobranza
+		</h5>
+	  
 		<br>
-		Para mas Informacion sobre el proyecto ir al Repositorio GitHub
-		</p>
+	  
+		<div class="item_container">
 		
-		
-		<figure>
-		  <img src="assets/img/github_logo.png" alt="Repositorio GitHub" style="width: 100px; height: 100px;">
-		  <a href="https://github.com/FaustoCasanova" target="_blank">
-			<figcaption>Repositorio GitHub</figcaption>
-		  </a>	
-		</figure>
-		  
-	
-			  
-	  <br>
-	  <hr style="border: 2px solid black;">
-	
-	  </div>
-	  <!-- Resumen Final-->
-	  
-	  <br>
-	  
-	
-	  <!-- REPORTE POWER BI INICIO--> 
-	  <h5 style="color: black; text-align: center;font-size: 20px;font-family: 'Times New Roman'">
-		Reporte del Analisis Exploratorio en Power BI
-	  </h5>
-	  
-	  <br>
-	  
-	  <div class="container">	
-	  
-		<div class="box">
+			<div class="item_container-item">
+		 
+				<h4>
+				Introducción
+				</h4>
+				<p>
+				El presente reporte tiene como finalidad presentar los resultados de los analisis exploratorios realizados en SQL y Power BI en base 
+				a preguntas clave formuladas con el propósito de conocer la situación de la Cartera de Credito y Cobranzas de la empresa X durante 
+				el periodo del primer semestre del año 2021 <br>
+				Cabe aclarar que los analisis realizados en MYSQL y POWER BI fueron independientes, es decir el proposito fue llegar al mismo resultado 
+				pero utilizando las herramientas propias de cada Aplicación.
+					
+			</div>
 			
-			<iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiOWE0MjA2NjUtZWVlZC00ODU5LWE4YmItOWU2MjQzMzFkMDY3IiwidCI6IjhjYTUyZTJiLTFkMjAtNDI3NC05YTEzLWJkNzZlY2NiODFkMSIsImMiOjR9" frameborder="0" allowFullScreen="true" style="display: block; margin: 0 auto;"></iframe>
+			<div class="item_container-item">
+			
+				<h4>
+				Estructura
+				</h4>
+				<p>
+				El analisis busca obtener informacion relevante de la cartera 
+				enfocandose en 3 puntos importantes: <br>
+				<ol> <!-- Inicia una lista ordenada -->
+					<li>Analisis General de la cartera de creditos</li>
+					<li>Analisis de la Cobranza de la cartera de creditos</li>
+					<li>Analisis de la Cartera Pendiente de cobro</li>
+				</ol> <!-- Cierra la lista ordenada --> 			
+				</p>
+			
+			</div>
+			
+			<div class="item_container-item">
+				<h4>
+				Mas Informacion
+				</h4>
+				<p>
+				Las herramientas y recursos que se utilizaron para realizar el Analisis fueron:
+				</p>
+				
+				<ul style="list-style-type: '▶'; padding-left: 30px;">
+					<li> Python 3.9 </li>
+					<li> MYSQL WorkBench Version: 8.0.32</li>
+					<li> Power BI</li>
+				</ul>
+				
+				<img src="assets/img/github_logo.png" alt="Repositorio GitHub" style="width: 70px; height: 70px;">
+					<a href="https://github.com/FaustoCasanova/PYCR-01_Gestion_Cartera" target="_blank">
+						<figcaption>Repositorio GitHub</figcaption>
+					</a>
+			</div>
 	
 		</div>
-	  <br>
-	  <hr style="border: 2px solid black;">
-	  </div>
-	  <!-- REPORTE POWER BI FINAL--> 
+	
+	</section>
+	
+	
+	<!-- ======= Seccion B Dashboard ======= -->	
+	
+	<section id="seccion_B"> 
+	
+		<div class="new_section">
+
+			<h6 class="adorned-title" style="color: black; text-align: center;line-height: 18px;font-weight: 600;font-size: 18px">
+			Analisis Exploratorio en Power BI
+			</h6>
+			<br>
+			<iframe 
+				class="TextBoxShaw1"
+				src="https://app.powerbi.com/view?r=eyJrIjoiOWE0MjA2NjUtZWVlZC00ODU5LWE4YmItOWU2MjQzMzFkMDY3IiwidCI6IjhjYTUyZTJiLTFkMjAtNDI3NC05YTEzLWJkNzZlY2NiODFkMSIsImMiOjR9" frameborder="0" allowFullScreen="true" 
+				title="Report Section" width="1024" height="612" 
+				style="display: block; margin: 0 auto;">
+			</iframe>
+		 
+		</div>
+
+	</section>
 	  
-	  
-	  
-	  
-	  <br>
 	 
+	<!-- ======= Seccion C Analisis General MYSQL ======= -->	
 	  
-	  <!-- REPORTE SQL INICIO--> 
-	  <h5 style="color: black; text-align: center;font-size: 20px;font-family: 'Times New Roman'">
-		Reporte del Analisis Exploratorio en MYSQL
-	  </h5>
+	<section id="seccion_C">
+	  
+	  
+		<!-- Introduccion Mysql--> 
+		<div class="new_section">
+
+			<h6 class="adorned-title" style="color: black; text-align: center;line-height: 18px;font-weight: 600;font-size: 18px">
+			Analisis Exploratorio en MYSQL
+			</h6>
 	
-	  <br> 
-	
-	  
-      <div class="container">
-	  
-        <h6 style="color: black;font-size: 17px;font-family: 'Times New Roman'">
-        Resumen:
-        </h6>
-			<p>
+			<br> 
+			
+			<p class="TextBoxShaw1">
 			El reporte busca mostrar y resumir brevemente los resultados de las consultas realizadas en MYSQL respondiendo a las preguntas propuestas 
 			desde el inicio. No se busca profundizar mucho sobre las informacion e indicadores extraidos, mas bien se enfoca en mostrar el resultado
 			de las consultas SQL y mostrar la "materia prima" que se utilizó como referencia en la creacion del Dashboard en Power BI.
 			</p>
+		
+		</div>
+	  
+	  
+		<!-- Analisis General -->
+		<div class="new_section">
 			<br>
 			
-	
-      </div>
-	  <!-- Subencabezado Fin --> 
-	  
-	  
-	  <br> 
-	  
-	  <!-- SECCION GRAFICOS PLOTLY INICIA -->
-	  
-	  <!-- Analisis General Inicio -->
-	  <div class="container">
-	    <hr style="border: 2px dashed #333;">
-		<br>
-		
-		<h6 style="color: black; text-align: center;margin-bottom: 15px;font-size: 18px; font-family: 'Times New Roman'">
-		Analisis General de la cartera de creditos
-		</h6>
-
-
-		<!-- //////////////////// -->	
-		<!-- //////////////////// -->
-		<!-- //////////////////// -->
-		
-		
-		
-		<!-- CONSULTA SQL 1 Inicio-->
-		
-		<div class="box">
+			<h6 class="subtitle" style="color: black; text-align: center;line-height: 17px;font-weight: 600;font-size: 16px">
+			Analisis General de la cartera de creditos
+			</h6>
+			<br>
 			
-			<p style="text-align: justify;font-size: 16px; font-family: 'Times New Roman'">
-			Consulta SQL 1  <br>
-			La consulta sql nos devuelve la informacion sobre la cantidad de creditos que se otorgaron en cada mes junto su monto respectivo en USD , de igual
-			manera se detallan los creditos que se lograron cobrar durante cada mes respectivo y su valor en USD.<br>
-            Ademas se aplica una funcion acumulativa que devuelve el monto acumulado tanto de los creditos como de los cobros en cada mes para conocer el saldo pendiente 
-            de cobro al final de cada mes.			
+			<p class="TextBoxShaw1">
+				<b>Consulta SQL 1</b>  
+				<br>
+				La consulta sql nos devuelve la informacion sobre la cantidad de creditos que se otorgaron en cada mes junto su monto respectivo en USD , de igual
+				manera se detallan los creditos que se lograron cobrar durante cada mes respectivo y su valor en USD.<br>
+				Ademas se aplica una funcion acumulativa que devuelve el monto acumulado tanto de los creditos como de los cobros en cada mes para conocer el saldo pendiente 
+				de cobro al final de cada mes.			
 			</p>
-			<pre style="height: 350px ; background-color: #f5f5f5; color: #333; padding: 10px; font-family: 'Courier New', monospace; border: 1px solid #ccc; line-height: 1.4; white-space: pre-wrap;">
-
+			
+			<!-- CONSULTA 1 SQL -->
+			
+			<pre class="BloqueCodigo">
+			
 DROP VIEW IF EXISTS cartera.Explorar_1 ;
 CREATE VIEW cartera.Explorar_1 AS
 	
@@ -265,30 +273,31 @@ ORDER BY C1.mes_id
 
 SELECT * 
 FROM cartera.Explorar_1 ;
-            </pre>
-
-			<iframe src="proyects/PYCR_01/Figures/Consulta_1_SQL.html" scrolling="no" width= "930" height= "380" style="float: center;position: relative; left: 110px;top: -25px"></iframe>
-		</div>
-		<!-- CONSULTA SQL 1 Fin-->
-
-
-		<!-- //////////////////// -->
-		<!-- //////////////////// -->
-		<!-- //////////////////// -->
-
-
-		
-		<!-- CONSULTA SQL 2 Inicio-->
-		
-		<div class="box">
+			</pre>
 			
-			<p style="text-align: justify;font-size: 16px; font-family: 'Times New Roman'">
-			Consulta SQL 2 <br>
-			Apartir de la consulta SQL 1 se calculan ciertas medidas que devuelve informacion sobre la Cartera Bruta de cada mes y ademas sobre que porcentage de 
-			esta cartera fue cobrada y que porcentage se mantiene como pendiente de cobro
+			
+			<iframe 
+				class="TextBoxShaw2"
+				src="proyects/PYCR_01/Figures/Consulta_1_SQL.html" scrolling="no" width= "930" height= "400" 
+				style="float: center;position: relative; left: 120px;top: 0px">
+			
+			</iframe>
+			
+		</div>
+		
+		<br>
+		
+		<div class="new_section">
+		
+			<p class="TextBoxShaw1">
+				<b>Consulta SQL 2</b> 
+				<br>
+				Apartir de la consulta SQL 1 se calculan ciertas medidas que devuelve informacion sobre la Cartera Bruta de cada mes y ademas sobre que porcentage de 
+				esta cartera fue cobrada y que porcentage se mantiene como pendiente de cobro
+			
 			</p>
 			
-			<pre style="height: 350px ; background-color: #f5f5f5; color: #333; padding: 10px; font-family: 'Courier New', monospace; border: 1px solid #ccc; line-height: 1.4; white-space: pre-wrap;">
+			<pre class="BloqueCodigo">
 SELECT 
     -- > Columnas
     mes_id , mes , 
@@ -310,78 +319,115 @@ SELECT
 	) AS Porcentage_Cartera_Pendiente 
     
 FROM cartera.Explorar_1 ;
+			
+			</pre>
+		
+			<iframe 
+				class="TextBoxShaw2"
+				src="proyects/PYCR_01/Figures/Consulta_2_SQL.html" scrolling="no" width= "930" height= "380" 
+				style="float: center;position: relative; left: 120px;top: 0px">
+			</iframe>
+			
+		</div>
+	
+	</section>
+
+
+	
+	<!-- ======= Seccion D Analisis Cobro MYSQL ======= -->	
+	  
+	<section id="seccion_D">
+			
+		<div class="new_section">
+			<h6 class="subtitle" style="color: black; text-align: center;line-height: 17px;font-weight: 600;font-size: 16px">
+			Analisis de la Cobranza de la cartera de creditos
+			</h6>
+	
+			<br> 
+			
+			<p class="TextBoxShaw1">
+				<b>Consulta SQL 3</b> 
+				<br>
+				Esta consulta nos devuleve la situacion de la cartera con respecto a la cobranza, nos indica en especifico que cantidad de creditos fueron cobrados
+				cada mes y su monto respectivo en USD clasificados segun su status Vigente si fueron cobrados dentro del plazo de la fecha de vencimiento o Vencido 
+				si el cobro se realizo fuera de este plazo.
+				<br>
+			</p>
+			
+			<pre class="BloqueCodigo">
+			
+WITH Explorar_2 AS (
+SELECT 
+	-- > Columnas
+	MONTH(C2.Fecha_cobro) AS mes_id  ,
+	MONTHNAME(C2.Fecha_cobro) AS mes ,
+	C1.Credit_id , C1.Cliente_id  , C1.Total_Factura , C1.Fecha_Factura , C1.Monto_credito , C1.Fecha_vencimiento ,
+	C2.Cobro_id  , C2.Fecha_cobro , C2.Monto_cobrado ,
+    -- > Medidas
+	SUM(C2.Monto_cobrado) OVER(PARTITION BY MONTH(C2.Fecha_cobro) ) AS Total_Cobro_Mensual ,
+    -- > Categorizar variables
+	CASE 
+		WHEN C1.Fecha_vencimiento >= C2.Fecha_cobro THEN "A TIEMPO"
+		ELSE "VENCIDO"
+	END AS Vencimiento
+    
+FROM cartera.creditos    AS C1
+LEFT JOIN cartera.cobros AS C2
+	ON C1.Credit_id = C2.Credit_id
+WHERE MONTH(C1.Fecha_Factura) IN (1,2,3,4,5,6) AND MONTH(C2.Fecha_cobro) IN (1,2,3,4,5,6)
+ORDER BY mes_id , C1.Fecha_Factura
+)
+
+SELECT 
+	-- > Columnas
+	mes_id , mes , Vencimiento , 
+	-- > Medidas
+	SUM(Monto_cobrado) AS Monto_Cobrado ,
+	AVG(Total_Cobro_Mensual) AS Total_Cobro_Mensual ,
+	ROUND(
+		SUM(Monto_cobrado)  / AVG(Total_Cobro_Mensual) , 
+        3 
+	) AS Porcentage_vencimiento
+    
+FROM Explorar_2
+GROUP BY mes_id , mes , Vencimiento ;
 
 			</pre>
-			<iframe src="proyects/PYCR_01/Figures/Consulta_2_SQL.html" scrolling="no" width= "930" height= "380" style="float: center;position: relative; left: 110px;top: -25px"></iframe>
+			
+			
+			<iframe 
+				class="TextBoxShaw2"
+				src="proyects/PYCR_01/Figures/Consulta_3_SQL.html" scrolling="yes" width= "930" height= "380" 
+				style="float: center;position: relative; left: 120px;top: 0px">
+			</iframe>
+			
 		</div>
-		<!-- CONSULTA SQL 2 Fin-->
-			
-	  </div>
-	  <!-- Analisis General Fin -->
+	
 		
-		
-		
-		
-	  <!-- Analisis Cobros Inicio -->
-	  <div class="container">
-	  
-	    <hr style="border: 2px dashed #333;">
-		<br>
-		
-	    <h6 style="color: black; text-align: center;margin-bottom: 15px;font-size: 18px; font-family: 'Times New Roman'">
-		Analisis de la Cobranza de la cartera de creditos
-		</h6>
-	  
-		<!-- //////////////////// -->
-		<!-- //////////////////// -->
-		<!-- //////////////////// -->		
-
-
-		
-		<!-- CONSULTA SQL 3 Inicio-->
-		
-		<div class="box">
-			
-			<p style="text-align: justify;font-size: 16px; font-family: 'Times New Roman'">
-			Consulta SQL 3 <br>
-			Esta consulta nos devuleve la situacion de la cartera con respecto a la cobranza, nos indica en especifico que cantidad de creditos fueron cobrados
-			cada mes y su monto respectivo en USD clasificados segun su status Vigente si fueron cobrados dentro del plazo de la fecha de vencimiento o Vencido 
-			si el cobro se realizo fuera de este plazo.<br>
-			
-			</p>
-			<iframe src="proyects/PYCR_01/Figures/Consulta_3_SQL.html" scrolling="yes" width= "930" height= "380" style="float: center;position: relative; left: 110px;top: 10px"></iframe>
-		</div>
-		<!-- CONSULTA SQL 3 Fin-->
+	</section>
 		
 	
-      </div>
-	  <!-- Analisis Cobros Fin -->	
+	
+	<!-- ======= Seccion E Analisis Pendiente MYSQL ======= -->	
 	  
-	  
-	  <!-- Analisis Cartera Pendiente Inicio -->
-	  <div class="container">
-	  
-	  <br>
-	  <hr style="border: 2px dashed #333;">
-		<br>
-		
-	    <h6 style="color: black; text-align: center;margin-bottom: 15px;font-size: 18px; font-family: 'Times New Roman'">
-		Analisis de la Cartera pendiente de cobro
-		</h6>
-		
-	  <!-- CONSULTA SQL 4 Inicio-->
-		
-		<div class="box">
+	<section id="seccion_E">
 			
-			<p style="text-align: justify;font-size: 16px; font-family: 'Times New Roman'">
-			Consulta SQL 4 <br>
-			Esta consulta nos devuleve la situacion de la cartera pendiente de cobro al final de cada mes, nos indica en especifico que cantidad de creditos que aun no 
-			fueron cobrados
-			y su monto respectivo en USD clasificados segun su status Vigente o Vencido , ademas de detallar el periodo de tiempo que se mantien vencidos.
-            			
-			
+		<div class="new_section">
+		
+			<h6 class="subtitle" style="color: black; text-align: center;line-height: 17px;font-weight: 600;font-size: 16px">
+			Analisis de la Cartera pendiente de cobro
+			</h6>
+			<br>
+				
+			<p class="TextBoxShaw1">
+				<b>Consulta SQL 4</b>
+				<br>
+				Esta consulta nos devuleve la situacion de la cartera pendiente de cobro al final de cada mes, nos indica en especifico que cantidad de creditos que aun no 
+				fueron cobrados
+				y su monto respectivo en USD clasificados segun su status Vigente o Vencido , ademas de detallar el periodo de tiempo que se mantien vencidos.
 			</p>
-			<pre style="height: 350px ; background-color: #f5f5f5; color: #333; padding: 10px; font-family: 'Courier New', monospace; border: 1px solid #ccc; line-height: 1.4; white-space: pre-wrap;">
+		
+			<pre class="BloqueCodigo">
 -- > Procedure para simular Reporte dado una fecha de Corte
 DROP PROCEDURE IF EXISTS cartera.Reportes_Corte ;
 
@@ -456,24 +502,22 @@ BEGIN
 END //
 DELIMITER ;
 
-# ----------------------- > \ Respuestas 11 al 13 / 
+
 # Invocar Procedure
 CALL cartera.Reportes_Corte() ;
 			</pre>
-			<iframe src="proyects/PYCR_01/Figures/Consulta_4_SQL.html" scrolling="no" width= "930" height= "680" style="float: center;position: relative; left: 110px;top: 10px"></iframe>
+			
+			<iframe 
+				class="TextBoxShaw2"
+				src="proyects/PYCR_01/Figures/Consulta_4_SQL.html" scrolling="no" width= "930" height= "680" 
+				style="float: center;position: relative; left: 120px;top: 0px">
+			</iframe>
+			
 		</div>
-		<!-- CONSULTA SQL 4 Fin-->
+	
+	</section>
 
 		
-	  </div>
-	  <!-- Analisis Cartera Pendiente Fin -->	
-	  
-	  
-	  
-	 
-    </section>
-    <!-- ======= Detalles contenido Inicio  ======= -->	
-
   </main><!-- End #main (no borrar esto) -->
 
 

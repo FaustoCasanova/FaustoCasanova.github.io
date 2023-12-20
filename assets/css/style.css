@@ -309,6 +309,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-bg {
@@ -526,6 +527,8 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1023,6 +1026,155 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Personalizado 1 -> Template para Proyectos
+--------------------------------------------------------------*/
+
+/* Agregar Nueva Seccion */
+
+.new_section,
+.new_section-fluid {
+  padding-left: 12px;
+  padding-right: 4px;
+  padding-top: 14px;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+}
+
+
+/* Sirve para limpiar automaticamente atributos anteriores cuando se usa una nueva seccion */
+.new_section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Parrafo Box Shadow derecha+izq-  | arriba abajo | desenfoque */
+.TextBoxShaw1 {
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+	right:10px;
+
+}
+
+.TextBoxShaw2 {
+    box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+
+
+/* Titulos Personalizado - Separador Incluido */
+
+.adorned-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adorned-title::before,
+.adorned-title::after {
+    content: '';
+    flex: 1;
+    border-top: 2px solid #333; /* Ajusta el color y grosor según tus preferencias */
+    margin: 0 10px; /* Ajusta el espacio entre las líneas según tus necesidades */
+}
+
+/* SUB-Titulos Personalizado - Separador Incluido */
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle::before,
+.subtitle::after {
+    content: '';
+    flex: 0.35;      /* Longuitud de la linea */
+    border-top: 2px dotted #333; /* Utiliza líneas punteadas y ajusta el color y grosor según tus preferencias */
+    margin: 0 15px; /* Ajusta el espacio entre las líneas según tus necesidades */
+}
+
+
+.BloqueCodigo {
+	height: 380px;
+	background-color: #E8E8E8; /* Color de fondo similar al de algunos IDE */
+	color: #000000; /* Color de texto */
+	padding: 20px; /* Aumentar el espacio interno para mayor comodidad */
+	font-family: 'Courier New', monospace; /* Fuente monoespaciada */
+	font-size: 14px; /* Tamaño de letra */
+	border: 1px solid #3e4451; /* Borde */
+	line-height: 1.6; /* Espaciado entre líneas */
+	white-space: pre-wrap;
+	overflow: auto; /* Agregar barra de desplazamiento en caso de que el contenido sea largo */
+	border-radius: 5px; /* Bordes redondeados */
+}
+
+
+/* Flujo de Orden */
+
+.item_container .item_container-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.item_container .item_container-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.item_container .item_container-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Times New Roman", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.item_container .item_container-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.item_container .item_container-item ul {
+  padding-left: 20px;
+}
+
+.item_container .item_container-item ul li {
+  padding-bottom: 10px;
+}
+
+.item_container .item_container-item:last-child {
+  padding-bottom: 0;
+}
+
+.item_container .item_container-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
